@@ -22,7 +22,7 @@ const Portfolio = () => {
             <section className=" ">
                 <div className="container mx-auto">
                     <div className="flex flex-wrap -mx-4">
-                        <div className="w-full px-4">
+                        <div className="w-full px-4" id="projects">
                             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
                                 <p className="text-body-color text-base dark:text-dark-6">
                                     Welcome to a showcase of my recent projects, where innovation meets functionality. These projects reflect my journey in web development, highlighting my skills in HTML, CSS, JavaScript, Tailwind CSS, MongoDB, Firebase, and Expres
@@ -31,7 +31,7 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    <div className="w-full flex flex-wrap justify-center -mx-4">
+                    <div className="w-full flex flex-wrap justify-center -mx-4" >
                         <div className="w-full px-4">
                             <ul className="flex flex-wrap justify-center mb-12 space-x-1">
                                 <li className="mb-1">

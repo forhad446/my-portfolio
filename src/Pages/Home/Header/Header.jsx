@@ -2,7 +2,7 @@ import banner from "./../../../assets//img/banner.jpeg";
 
 const Header = () => {
     return (
-        <section style={{ backgroundImage: `url(${banner})` }}
+        <section id="header" style={{ backgroundImage: `url(${banner})` }}
             className="relative text-white  bg-cover bg-center bg-no-repeat"
         >
             <div
@@ -10,7 +10,7 @@ const Header = () => {
             ></div>
 
             <div
-                className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex h-[calc(100vh-64px)] lg:h-[calc(100vh-68px)] lg:items-center lg:px-8"
+                className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex h-screen lg:items-center lg:px-8"
             >
                 <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
                     <h1 className="text-3xl font-bold sm:text-5xl ">

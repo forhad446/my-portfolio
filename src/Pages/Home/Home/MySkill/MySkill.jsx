@@ -7,7 +7,7 @@ const MySkill = () => {
     return (
         <div className="">
             <PageTitle title={'Skill Showcase'}></PageTitle>
-            <div>
+            <div id="mySkill">
                 <p className='mx-auto mb-[60px] max-w-[510px] text-center'>
                     Welcome to my skills showcase, where technical prowess meets innovation. I've honed a versatile skill set encompassing:
                 </p>
