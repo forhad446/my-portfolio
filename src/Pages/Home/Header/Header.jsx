@@ -1,4 +1,5 @@
 import banner from "./../../../assets//img/banner.jpeg";
+import resume from "./../../../assets/resume/My Resume.pdf"
 
 const Header = () => {
     return (
@@ -25,7 +26,7 @@ const Header = () => {
 
                     <div className="mt-8 flex justify-center flex-wrap gap-4 text-center">
                         <a
-                            href="#"
+                            href={resume} download="resume"
                             className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
                         >
                             Download Resume
